@@ -1,24 +1,35 @@
-# README
+# Appraisl
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+An app for staff and managers to rate, review and feedback.
 
-Things you may want to cover:
+## A high level summary of the application: 
 
-* Ruby version
+1. The ability to add a new team member:
 
-* System dependencies
+    - first name
+    - surname
+    - department
+    - job role
+    - team
 
-* Configuration
+2. View/Show all team members
 
-* Database creation
+3. The ability to leave reviews/feedback for a team member
 
-* Database initialization
+    - grade
+    - content
+    - user_id
 
-* How to run the test suite
+4. View/Show all reviews/feedback
 
-* Services (job queues, cache servers, search engines, etc.)
+5. The ability to add areas of success as defined by client
 
-* Deployment instructions
+    - area 1: project delivery
+    - area 2: communications
+    - area 3: training
+    - area 4: objectives
+    - area 5: resourcing
 
-* ...
+6. View/Show all client areas of success
+
+7. The ability to view performance metrics
