@@ -24,4 +24,10 @@ class HtmlPagesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
     assert_select "title", "Contact | Appraisl Feedback Application"
   end
+
+  test "should get signup" do
+    get signup_path
+    assert_response :success
+    assert_select "title", "Signup | Appraisl Feedback Application"
+  end
 end
